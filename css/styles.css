@@ -28,20 +28,48 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  color: #fff;
+  float: left;
+  display: block;
+  position: relative;
   height: 80px;
   line-height: 80px;
   padding: 0 20px;
 }
 
-nav a {
+nav li a {
+  display: block;
   color: #fff;
   text-decoration: none;
   transition: .25s color;
 }
 
 nav a:hover {
-  color: #0093d0;
+  color: #47a4d7;
+}
+
+.submenu {
+  background: #33363b;
+  position: absolute;
+  right: 0;
+  padding: 0 25px;
+  border-radius: 5px;
+  display: none;
+}
+
+.submenu li {
+  color: #ccc;
+  width: 100%;
+  white-space: nowrap;
+  text-align: left;
+  padding: 0;
+  height: 60px;
+  line-height: 60px;
+}
+
+.submenu a {
+  border-top: 1px solid #ccc;
+  padding-left: 25px;
 }
 
 #navigation-left {
@@ -66,4 +94,12 @@ nav a:hover {
   width: 20px;
   vertical-align: middle;
   padding: 0 8px 4px 0;
+}
+
+.check {
+  display: none;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 12px;
 }
