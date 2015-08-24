@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/proximanova-semibold-webfont.eot'),
+       url('../fonts/proximanova-semibold-webfont.ttf'),
+       url('../fonts/proximanova-semibold-webfont.woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #4b5058;
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 14px;
+}
+
+nav {
+  height: 80px;
+  background: #44484e;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  position: relative;
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20px;
+  color: #fff;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  transition: .25s color;
+}
+
+nav a:hover {
+  color: #47a4d7;
+}
+
+.submenu {
+  position: absolute;
+  right: 0;
+  display: none;
+  padding: 0 25px;
+  border-radius: 5px;
+  background: #33363b;
+}
+
+.submenu li {
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  white-space: nowrap;
+  color: #ccc;
+  line-height: 60px;
+  text-align: left;
+}
+
+.submenu a {
+  padding-left: 25px;
+  border-top: 1px solid #ccc;
+}
+
+#navigation-left {
+  float: left;
+}
+
+#navigation-right {
+  float: right;
+}
+
+#logo {
+  width: 60px;
+  vertical-align: middle;
+}
+
+#bell {
+  width: 20px;
+  vertical-align: middle;
+}
+
+#eye {
+  width: 20px;
+  vertical-align: middle;
+  padding: 0 8px 4px 0;
+}
+
+.check {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  display: none;
+  width: 12px;
+}
