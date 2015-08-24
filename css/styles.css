@@ -28,13 +28,13 @@ nav ul {
 }
 
 nav li {
-  color: #fff;
   float: left;
-  display: block;
   position: relative;
+  display: block;
   height: 80px;
   line-height: 80px;
   padding: 0 20px;
+  color: #fff;
 }
 
 nav li a {
@@ -49,27 +49,27 @@ nav a:hover {
 }
 
 .submenu {
-  background: #33363b;
   position: absolute;
   right: 0;
+  display: none;
   padding: 0 25px;
   border-radius: 5px;
-  display: none;
+  background: #33363b;
 }
 
 .submenu li {
-  color: #ccc;
   width: 100%;
-  white-space: nowrap;
-  text-align: left;
-  padding: 0;
   height: 60px;
+  padding: 0;
+  white-space: nowrap;
+  color: #ccc;
   line-height: 60px;
+  text-align: left;
 }
 
 .submenu a {
-  border-top: 1px solid #ccc;
   padding-left: 25px;
+  border-top: 1px solid #ccc;
 }
 
 #navigation-left {
@@ -97,9 +97,9 @@ nav a:hover {
 }
 
 .check {
-  display: none;
   position: absolute;
   top: 23px;
   left: 0;
+  display: none;
   width: 12px;
 }
